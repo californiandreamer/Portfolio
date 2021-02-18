@@ -1,0 +1,50 @@
+// main: ../style.less
+
+.progress-bar {
+    margin-bottom: .6rem;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.progress-bar__item {
+    position: relative;
+    align-items: center;
+    margin-bottom: .2rem;
+}
+
+.progress-bar__title {
+    font-size: .94rem;
+    font-weight: 300;
+}
+
+.progress-bar__bigtitle {
+    margin: 2rem auto .5rem;
+    
+    font-size: 1.2rem;
+    color: @black;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.progress-bar__otherside {
+    margin-top: 4rem;
+    margin-left: 1rem;
+    transform: translateY(-0.3rem);
+}
+
+.progress-bar__bar {
+    width: 139px;
+    height: 6px;
+    
+    background-color: #EFEFEF;
+}
+
+.progress-bar__progress {
+    margin-top: 0.8rem;
+    height: 100%;
+    
+    background-color: @gray;
+    
+    transition: width .2s linear;
+}
